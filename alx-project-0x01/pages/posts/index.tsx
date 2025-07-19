@@ -38,7 +38,8 @@ const Posts: React.FC<PostsPageProps> = ({ posts }) => {
           ))}
         </div>
       </main>
-
+      
+PostProps
       {isModalOpen && (
         <PostModal onClose={() => setModalOpen(false)} onSubmit={handleAddPost} />
       )}
